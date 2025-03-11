@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #2c3e50;
+        }
+
+        header p {
+            margin: 0;
+            color: #7f8c8d;
+        }
+
+        .section-title {
+            font-size: 1.2em;
+            color: #2c3e50;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .contact, .education, .experience, .skills {
+            margin-bottom: 20px;
+        }
+
+        .contact ul, .education ul, .experience ul, .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contact li, .education li, .experience li, .skills li {
+            margin-bottom: 5px;
+        }
+
+        .experience ul li {
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .experience ul li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 20px;
+            color: #db3434;
+        }
+
+        .contact li span, .education li span, .experience li span, .skills li span {
+            font-weight: bold;
+            color: #db3434;
+        }
+        table,th,td{
+            border: solid 1px black;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>shalin ukey</h1>
+            <p>Web Developer | Designer</p>
+        </header>
+
+        <section class="contact">
+            <h2 class="section-title">Contact Information</h2>
+            <ul>
+                <li><span>Email:</span> shalinukey.ds24@sbjit.edu.in</li>
+                <li><span>Phone:</span> 8149237902</li>
+                <li><span>Website:</span>
+                <li><span>LinkedIn:</span> linkedin.com/in/shalinukey</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li><span>SB Jain  Institute of Technology</span> - B.tech in Computer Science (2024 - 2028)</li>
+                <li><span>BR. Convent School KAtol</span> - High School Diploma (2020 - 2024)</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2 class="section-title">Work Experience</h2>
+            <ul>
+                <li>
+                    <span>Web Developer</span> - B.Tech (2024 - Present)
+                    <ul>
+                        <li>Developed and maintained company website using HTML, CSS, JavaScript, and React.js</li>
+                        <li>Collaborated with the design team to improve user experience and interface design</li>
+                        <li>Implemented responsive designs that work across desktop and mobile platforms</li>
+                    </ul>
+                </li>
+                <li>
+                    <span>Frontend Developer Intern</span> -  (2019 - 2020)
+                    <ul>
+                        <li>Assisted in developing web pages using HTML, CSS, and JavaScript</li>
+                        <li>Worked on bug fixes and UI improvements</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li><span>Languages:</span> HTML, CSS, JavaScript, PHP</li>
+                <li><span>Frameworks:</span> React, Node.js</li>
+                <li><span>Design:</span> Adobe Photoshop, Figma</li>
+                <li><span>Other:</span> Git, GitHub, Responsive Design</li>
+            </ul>
+        </section>
+        <table>
+            <tr>
+                <th>Educational Qualification</th>
+                <th>Marks</th>
+                <th>Institution Name</th>
+            </tr>
+
+            <tr>
+                <td>10th Passed</td>
+                <td style="text-align: center;">82%</td>
+                <td style="text-align: center;">STX Institute</td>
+            </tr>
+
+            <tr>
+                <td>12th Passed</td>
+                <td  style="text-align: center;">89%</td>
+                <td  style="text-align: center;">STX Institute</td>
+            </tr>
+
+            <tr>
+                <td>B.Tech Passed</td>
+                <td style="text-align: center;">9.4 CGPA</td>
+                <td  style="text-align: center;">SB Jain Institute of Technology</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
